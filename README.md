@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ติดตั้งแอปพลิเคชัน</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .app-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            margin: 15px auto;
+            padding: 15px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .app-button:hover {
+            background-color: #0056b3;
+        }
+        .app-button img {
+            width: 60px;
+            height: 60px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>เลือกแอปพลิเคชันเพื่อติดตั้ง</h1>
+		<h2>ทีมภาค ทองสันต์  วรรณเวช</h2>
+		<h3>(กดที่ติดตั้งแอป)</h3>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLProPlus/prod-proplus.plist" class="app-button">
+            ติดตั้งแอป TL ProPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLAfter/tlafterplus.plist" class="app-button">
+            ติดตั้งแอป TLAfterPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://assets.thailife.com/tlappscenter/asset/TLTeam/tlteamplus.plist" class="app-button">
+            ติดตั้งแอป TLTeamPlus
+        </a>
+        <a href="itms-services://?action=download-manifest&url=https://direct.thailife.com/tlappscenter/asset/TLSmart/prod-asa.plist" class="app-button">
+            ติดตั้งแอป TLSmart
+        </a>
+    </div>
+</body>
+</html>
